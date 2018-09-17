@@ -1,11 +1,17 @@
-QUEEN_NUM	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define QUEEN_NUM /;"	macro	line:7	file:
-TRUE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define TRUE /;"	macro	line:8	file:
-FALSE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define FALSE /;"	macro	line:9	file:
-cnt	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int cnt = 0;$/;"	variable	line:11
-chessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int *chessboard = NULL;$/;"	variable	line:12
-Init	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void Init() {$/;"	function	line:14
-placeQueen	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void placeQueen(int row, int col) {$/;"	function	line:19	signature:(int row, int col)
-isValid	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^bool isValid(int row, int col) {$/;"	function	line:23	signature:(int row, int col)
-printChessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void printChessboard() {$/;"	function	line:31
-NQueens	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void NQueens(int row) {$/;"	function	line:47	signature:(int row)
-main	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int main(int argc, char const *argv[]) {$/;"	function	line:60	signature:(int argc, char const *argv[])
+N	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^const int N=20;   \/\/最多放皇后的个数$/;"	variable	line:4
+q	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int q[N];         \/\/各皇后所在的行号$/;"	variable	line:5
+cont	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int cont = 0;     \/\/统计解得个数$/;"	variable	line:6
+print	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^void print(int n)$/;"	function	line:8	signature:(int n)
+find	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int find(int i,int k)$/;"	function	line:29	signature:(int i,int k)
+place	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^void place(int k,int n)$/;"	function	line:42	signature:(int k,int n)
+main	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int main(void)$/;"	function	line:60	signature:(void)
+TRUE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define TRUE /;"	macro	line:7	file:
+FALSE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define FALSE /;"	macro	line:8	file:
+cnt	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int cnt = 0;$/;"	variable	line:10
+chessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int *chessboard = NULL;$/;"	variable	line:11
+Init	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void Init(int QUEEN_NUM) {$/;"	function	line:15	signature:(int QUEEN_NUM)
+placeQueen	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void placeQueen(int row, int col) {$/;"	function	line:20	signature:(int row, int col)
+isValid	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^bool isValid(int row, int col) {$/;"	function	line:24	signature:(int row, int col)
+printChessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void printChessboard(const int QUEEN_NUM) {$/;"	function	line:32	signature:(const int QUEEN_NUM)
+NQueens	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void NQueens(int row, const int QUEEN_NUM) {$/;"	function	line:50	signature:(int row, const int QUEEN_NUM)
+main	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int main(int argc, char const *argv[]) {$/;"	function	line:64	signature:(int argc, char const *argv[])
