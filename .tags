@@ -1,0 +1,11 @@
+QUEEN_NUM	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define QUEEN_NUM /;"	macro	line:7	file:
+TRUE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define TRUE /;"	macro	line:8	file:
+FALSE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define FALSE /;"	macro	line:9	file:
+cnt	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int cnt = 0;$/;"	variable	line:11
+chessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int *chessboard = NULL;$/;"	variable	line:12
+Init	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void Init() {$/;"	function	line:14
+placeQueen	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void placeQueen(int row, int col) {$/;"	function	line:19	signature:(int row, int col)
+isValid	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^bool isValid(int row, int col) {$/;"	function	line:23	signature:(int row, int col)
+printChessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void printChessboard() {$/;"	function	line:31
+NQueens	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void NQueens(int row) {$/;"	function	line:47	signature:(int row)
+main	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int main(int argc, char const *argv[]) {$/;"	function	line:60	signature:(int argc, char const *argv[])
