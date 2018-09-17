@@ -41,9 +41,6 @@ void printChessboard(const int QUEEN_NUM) {
         }
         printf("\n");
     }
-    // for (int i = 0; i < QUEEN_NUM; i++) {
-    //     printf("%d, %d\n", i, *(chessboard + i));
-    // }
     printf("\n");
 }
 
@@ -54,7 +51,6 @@ void NQueens(int row, const int QUEEN_NUM) {
         for (int j = 0; j < QUEEN_NUM; j++) {    // every col at #row
             if (isValid(row, j)) {
                 placeQueen(row, j);
-                // printf("place at: (%d, %d) | %d\n", row, j, *(chessboard + row));
                 NQueens(row + 1, QUEEN_NUM);
             }
         }
@@ -73,6 +69,6 @@ int main(int argc, char const *argv[]) {
 
     Init(QUEEN_NUM);
     NQueens(0, QUEEN_NUM);
-    printf("Totally %d\n", cnt);
+    printf("Totally %d solutions for %d Queens Problem.\n", cnt, QUEEN_NUM);
     return 0;
 }
