@@ -1,17 +1,32 @@
-N	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^const int N=20;   \/\/最多放皇后的个数$/;"	variable	line:4
-q	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int q[N];         \/\/各皇后所在的行号$/;"	variable	line:5
-cont	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int cont = 0;     \/\/统计解得个数$/;"	variable	line:6
-print	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^void print(int n)$/;"	function	line:8	signature:(int n)
-find	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int find(int i,int k)$/;"	function	line:29	signature:(int i,int k)
-place	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^void place(int k,int n)$/;"	function	line:42	signature:(int k,int n)
-main	/home/wyd/Documents/alg_stud/divide_conquer/test.c	/^int main(void)$/;"	function	line:60	signature:(void)
-TRUE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define TRUE /;"	macro	line:7	file:
-FALSE	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^#define FALSE /;"	macro	line:8	file:
-cnt	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int cnt = 0;$/;"	variable	line:10
-chessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int *chessboard = NULL;$/;"	variable	line:11
-Init	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void Init(int QUEEN_NUM) {$/;"	function	line:15	signature:(int QUEEN_NUM)
-placeQueen	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void placeQueen(int row, int col) {$/;"	function	line:20	signature:(int row, int col)
-isValid	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^bool isValid(int row, int col) {$/;"	function	line:24	signature:(int row, int col)
-printChessboard	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void printChessboard(const int QUEEN_NUM) {$/;"	function	line:32	signature:(const int QUEEN_NUM)
-NQueens	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^void NQueens(int row, const int QUEEN_NUM) {$/;"	function	line:50	signature:(int row, const int QUEEN_NUM)
-main	/home/wyd/Documents/alg_stud/divide_conquer/eight_queens.c	/^int main(int argc, char const *argv[]) {$/;"	function	line:64	signature:(int argc, char const *argv[])
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FALSE	divide_conquer/eight_queens.c	8;"	d	file:
+Init	divide_conquer/eight_queens.c	/^void Init(int QUEEN_NUM) {$/;"	f
+NQueens	divide_conquer/eight_queens.c	/^void NQueens(int row, const int QUEEN_NUM) {$/;"	f
+TRUE	divide_conquer/eight_queens.c	7;"	d	file:
+check	divide_conquer/test.c	/^int check(int n) \/* 检查当前列能否放置皇后 *\/$/;"	f
+chessboard	divide_conquer/eight_queens.c	/^int *chessboard = NULL;$/;"	v
+cnt	divide_conquer/eight_queens.c	/^int cnt = 0;$/;"	v
+cnt	divide_conquer/hanno.c	/^int cnt = 0;$/;"	v
+factorial	divide_conquer/factorial.c	/^int factorial(int i) {$/;"	f
+fibonacci	divide_conquer/fibonacci.c	/^int fibonacci(int i) {$/;"	f
+isValid	divide_conquer/eight_queens.c	/^bool isValid(int row, int col) {$/;"	f
+main	divide_conquer/eight_queens.c	/^int main(int argc, char const *argv[]) {$/;"	f
+main	divide_conquer/factorial.c	/^int main(int argc, char const *argv[]) {$/;"	f
+main	divide_conquer/fibonacci.c	/^int main(int argc, char const *argv[]) {$/;"	f
+main	divide_conquer/hanno.c	/^int main(int argc, char const *argv[]) {$/;"	f
+main	divide_conquer/reverse_order.c	/^int main(int argc, char const *argv[]) {$/;"	f
+main	divide_conquer/test.c	/^int main()$/;"	f
+max	divide_conquer/test.c	4;"	d	file:
+move	divide_conquer/hanno.c	/^void move(int n, char x, char y, char z) {$/;"	f
+placeQueen	divide_conquer/eight_queens.c	/^void placeQueen(int row, int col) {$/;"	f
+printChessboard	divide_conquer/eight_queens.c	/^void printChessboard(const int QUEEN_NUM) {$/;"	f
+put	divide_conquer/test.c	/^void put(int n) \/* 回溯尝试皇后位置,n为横坐标 *\/$/;"	f
+queen	divide_conquer/test.c	/^int queen[max], sum=0; \/* max为棋盘最大坐标 *\/$/;"	v
+reverse_order	divide_conquer/reverse_order.c	/^char * reverse_order(char *str) {$/;"	f
+show	divide_conquer/test.c	/^void show() \/* 输出所有皇后的坐标 *\/$/;"	f
+sum	divide_conquer/test.c	/^int queen[max], sum=0; \/* max为棋盘最大坐标 *\/$/;"	v

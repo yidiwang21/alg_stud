@@ -31,9 +31,9 @@ bool isValid(int row, int col) {
 
 void printChessboard(const int QUEEN_NUM) {
     int k = 0;
-    printf("[%d]: \n", cnt++);
+    printf("[%d]: \n", ++cnt);
     for (int i = 0; i < QUEEN_NUM; i++) {   // scan rows
-        for (k = 1; k <= QUEEN_NUM; k++) {
+        for (k = 0; k < QUEEN_NUM; k++) {
             if (k == *(chessboard + i))
                 printf("1 ");
             else
@@ -51,7 +51,7 @@ void NQueens(int row, const int QUEEN_NUM) {
     if (row  == QUEEN_NUM) {
         printChessboard(QUEEN_NUM);
     }else {
-        for (int j = 1; j <= QUEEN_NUM; j++) {    // every col at #row
+        for (int j = 0; j < QUEEN_NUM; j++) {    // every col at #row
             if (isValid(row, j)) {
                 placeQueen(row, j);
                 // printf("place at: (%d, %d) | %d\n", row, j, *(chessboard + row));
@@ -72,6 +72,7 @@ int main(int argc, char const *argv[]) {
     }
 
     Init(QUEEN_NUM);
-    NQueens(1, QUEEN_NUM);
+    NQueens(0, QUEEN_NUM);
+    printf("Totally %d\n", cnt);
     return 0;
 }
